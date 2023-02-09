@@ -19,7 +19,7 @@
 <loc>http://localhost:4000/message-envoye</loc>
 </url>
 <url>
-<loc>http://localhost:4000/mention-legles</loc>
+<loc>http://localhost:4000./mentions-legales.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/galerie</loc>
@@ -43,7 +43,7 @@
 <loc>http://localhost:4000/isolation-du-sous-sol</loc>
 </url>
 <url>
-<loc>http://localhost:4000/mention-legles</loc>
+<loc>http://localhost:4000./mentions-legales.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/mon-contrat-dentretien</loc>
