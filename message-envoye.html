@@ -1,0 +1,529 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./assets/js/popper.min.js"></script>
+    <script defer src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <title></title>
+<meta property="og:title" content="" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="description" content="" />
+<meta property="og:description" content="" />
+<meta name="keywords" content="" />
+<link rel="canonical" href="http://localhost:4000/message-envoye" />
+<meta property="og:url" content="http://localhost:4000/message-envoye" />
+<meta property="og:site_name" content="BHInternet" />
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"url":"http://localhost:4000/message-envoye",
+"description":"",
+"name":""
+}
+</script>
+
+</head>
+<body>
+  <section class="Navbar navbar-main Navbar">
+    <nav class="navbar navbar-expand-lg Navbar p-0">
+        <div class="container">
+            <div class="Navbar_image">
+                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="" /></a>
+            </div>
+            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars fa-2x toggle-button" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse Navbar_nav-collapse" id="navbarNav">
+                <ul class="navbar-nav Navbar_nav ml-auto">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item dropdown Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link dropdown-toggle  d-flex align-items-center" href="#"
+                            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> NOS OFFRES
+                        </a>
+                        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item dropdown-toggle Navbar_nav-link py-3 dropdown-item dropdown-toggle"
+                                href="#">CHAUFFAGE</a>
+                            <ul class="dropdown-menu menu-to-right">
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./installation-de-pompe-a-chaleur-air-eau.html">Pompes à chaleur
+                                        Air-Eau</a></li>
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./installation-de-pompe-a-chaleur-air-air.html">Pompe à chaleur
+                                        Air-Air</a></li>
+                            </ul>
+                            <a class="dropdown-item Navbar_nav-link dropdown-item dropdown-toggle py-3"
+                                href="#">ISOLATION</a>
+                            <ul class="dropdown-menu menu-to-right">
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-des-combles-perdus.html">Isolation des combles
+                                        perdus</a></li>
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-des-combles-amenageables.html">isolation des combles
+                                        aménageables</a></li>
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-des-facades.html">Isolation des
+                                        façades</a></li>
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-du-sous-sol.html">Isolation du
+                                        sous-sol</a></li>
+                            </ul>
+                            <a class="dropdown-item Navbar_nav-link dropdown-item dropdown-toggle py-3"
+                                href="#">VENTILATION</a>
+                            <ul class="dropdown-menu menu-to-right">
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./vmc-double-flux.html">VMC Double Flux</a></li>
+                                <li class="nav-item Navbar_nav-item py-2"><a
+                                        class="dropdown-item nav-link Navbar_nav-link" href="./vmc-simple-flux.html">VMC Simple flux</a></li>
+                            </ul>
+                            <a class="dropdown-item Navbar_nav-link py-3" href="./mon-contrat-dentretien.html">MON CONTRAT D’ENTRETIEN</a>
+                        </div>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./quiSommesNous.html">Qui sommes-nous ?</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./galerie.html">Nos réalisations</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./aides-et-financements.html">Aides et financements</a>
+                    </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./parrainage.html">PARRAINAGE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+  
+
+  
+
+  <div class="">
+    <p class="alert alert-success">
+    Votre formulaire a bien été envoyé.<br>
+    Vous serez recontacté aussi rapidement que possible&nbsp;!
+</p>
+<a href="/">Retour sur la page d'accueil</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer_logo">
+                    <img src="./assets/img/logo-big.png" alt="" class="footer_logo-img">
+                </div>
+                <ul class="footer_content-ul">
+                    <li class="footer_content-li">
+                        <i class="fas fa-map-marker-alt footer_content-icon"></i>
+                        23 Rue du Bon Puits, 49480 Verrières-en-Anjou
+                    </li>
+                    <li class="footer_content-li">
+                        <i class="fas fa-clock footer_content-icon"></i>
+                        Du Lundi au vendredi de 9h à17h
+                    </li>
+                    <li class="footer_content-li">
+                        <i class="fas fa-phone-alt footer_content-icon"></i>
+                        <a href="tel:02 41 09 39 99"
+                            class="footer_content-li--link">02 41 09 39 99</a>
+                    </li>
+                    <li class="footer_content-facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100063747295581" target="_blank">
+                            <i class="fab fa-facebook-f footer_content-facebook--icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div class="footer_content">
+                    <h3 class="footer_content-title">VOTRE AVIS NOUS INTÉRESSE</h3>
+                    <img src="https://cdn.trustindex.io/assets/platform/Google/logo.svg" alt=""
+                        class="footer_content-google">
+                    <div class="footer_content-reviews">
+                        <i class="fas fa-star footer_content-reviews--icon"></i>
+                        <i class="fas fa-star footer_content-reviews--icon"></i>
+                        <i class="fas fa-star footer_content-reviews--icon"></i>
+                        <i class="fas fa-star footer_content-reviews--icon"></i>
+                        <i class="fas fa-star footer_content-reviews--icon"></i>
+                    </div>
+                    <p class="footer_content-reviews--p">Basée sur 10 avis</p>
+                </div>
+                <div class="footer_cards owl-carousel owl">
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/l.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            Loic Redureau</h4>
+                                        <p class="footer_card-details--date">2022-09-25</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Nous avons fait remplacer notre chaudière fioul par une pompe à chaleur et nous sommes
+                                très satisfaits.<br>Équipe très professionnelle, les travaux sont bien réalisés, nous
+                                recommandons !
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/m.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            Madeleine boucault</h4>
+                                        <p class="footer_card-details--date">2022-09-23</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                nous sommes entièrement satisfait de la pose de notre pompe à chaleur qui est venue
+                                remplacer celle au fuel , nous n'avons eu aucune démarche à faire concernant la prime de
+                                l'état l'entreprise c'est occupé de tout . Le travail a été très bien fait et laissé
+                                très propre , c'est une entreprise sérieuse et nous la recommandons .
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/lapo.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            lapoupette66 caro</h4>
+                                        <p class="footer_card-details--date">2022-02-09</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Nous avons été très contents de choisir cette entreprise pour le changement de notre
+                                vieille chaudière au fuel pour une pompe à chaleur et nous avons pu bénéficier des aides
+                                de l'état, car en + ils se sont occupés de tout. Équipe sérieuse, tjts de bons
+                                interlocuteurs, rapidité d'exécution. Vraiment rien à redire si ce n'est que je la
+                                recommande.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/m2.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            Mustapha Arab</h4>
+                                        <p class="footer_card-details--date">2021-12-01</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Isolation de combles. Pact'iso a su répondre à mes attentes. Ponctuels et
+                                professionnels.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/vero.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            vero redon</h4>
+                                        <p class="footer_card-details--date">2021-02-19</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Entreprise intervenue chez nous dans le cadre de l isolation a 1€, nous recommandons
+                                cette entreprise, chantier propre, efficacité et rapidité.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/j.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            Julien Lanoê</h4>
+                                        <p class="footer_card-details--date">2021-02-03</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Bon travail ! Malgré un décalage de date d'installation de la pompe à chaleur. Nous
+                                sommes très satisfait de l'intervention et de l'accompagnement administratif.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="./assets/img/justine.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            Justine CORDA</h4>
+                                        <p class="footer_card-details--date">2021-01-14</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Intervention dans le cadre de l'isolation a 1 euro. Commercial sérieux et très gentil,
+                                les ouvriers ont bien fait leur travail même si je met une étoile en moins car un
+                                ouvrier a cassé une caisse en plastique en montant dessus lors de l'isolation des sous
+                                rampants et que le minimum aurait été de me le dire, j'ai eu la mauvaise surprise de
+                                m'en rendre compte 5 min après leur départ ... Ce n'est pas le fait que la caisse soit
+                                cassée qui me dérange , mais surtout qu'on ne me l'ai pas dit ...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer_card">
+                        <div class="footer_card-content">
+                            <div class="footer_card-details">
+                                <div class="footer_card-details--left">
+                                    <div>
+                                        <img src="../assets/img/cindy.png" alt="" class="footer_card-details--avatar">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer_card-details--name">
+                                            Cindy Blanchandin</h4>
+                                        <p class="footer_card-details--date">2020-10-05</p>
+                                    </div>
+                                </div>
+                                <div class="footer_card-details--google">
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                        class="footer_card-details--icon">
+                                </div>
+                            </div>
+                            <div class="footer_card-reviews">
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                                <i class="fas fa-star footer_card-reviews--icon"></i>
+                            </div>
+                            <p class="footer_card-content--p">
+                                Bonne équipe, bon travail. Je recommande.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer_content">
+                    <h3 class="footer_content-title">CONTACTEZ-NOUS</h3>
+                </div>
+                <div class="footer_form">
+                    <form class="form footer_form-form" id="contactForm" method="post"
+                        action="https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify">
+                        <input type="hidden" name="lang" value="fr">
+                        <input type="hidden" name="redirectUrl" value="/" />
+                        <input type="hidden" name="type" value="contact" />
+                        <input type="hidden" name="website" value="" />
+                        <input type="hidden" name="lang" value="fr" />
+                        <input type="hidden" name="firstName" value="" />
+                        <input type="hidden" name="key" value="6LeLP2ckAAAAAC2PXJ2UWXaezcpKhLGPOaXGS1Al">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="name" class="footer_form-label">Prénom et Nom <span
+                                                    class="red">*</span></label>
+                                            <input type="text" class="footer_form-input" id="name" name="name"
+                                                placeholder="Nom*" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="email" class="footer_form-label">E-mail <span
+                                                    class="red">*</span></label>
+                                            <input type="email" class="footer_form-input" id="email" name="email"
+                                                placeholder="Email*" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="phone" class="footer_form-label">Téléphone <span
+                                                    class="red">*</span></label>
+                                            <input type="text" class="footer_form-input" id="phone" name="phone"
+                                                placeholder="Téléphone*" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="commentaire" class="footer_form-label">Demande <span
+                                                    class="red">*</span></label>
+                                            <textarea class="footer_form-input h-100" name="commentaire"
+                                                id="commentaire" rows="5" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6LeLP2ckAAAAAJaO2787DDoLXm06-1F4n-_M66ln">
+                                    </div>
+                                    <br />
+                                    <input style="display: none" type="submit" value="Submit"
+                                        class="wpcf7-wpcf7-submit" />
+                                </div>
+                                <div id="contact-form-response"></div>
+                                <div class="checkbox d-flex justify-content-center mb-5">
+                                    <input name="condition" type="checkbox" />
+                                    <span class="footer_form--label" style="font-size: 1.2rem; white-space: nowrap;">
+                                        &nbsp; En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                                        de vos données par ce site *</span>
+                                    <i class="fa fa-info-square" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mx-auto">
+                                <button type="submit" class="slider_right-form--submit form-submit"
+                                    value="Submit">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer_bottom">
+    <p class="footer_bottom-p">
+        Pact’iso – Tous droits réservés –
+        <a href="/mentions-legales" class="footer_content-li--link2">Mentions légales </a>
+        – Création:
+        <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link2"> BHInternet - Création
+            site internet | 2023 </a>
+    </p>
+</div>
+
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/formSubmit.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
