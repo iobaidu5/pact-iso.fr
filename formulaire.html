@@ -252,42 +252,85 @@
                             <input type="hidden" name="key" value="6LeLP2ckAAAAAC2PXJ2UWXaezcpKhLGPOaXGS1Al">
                             <input type="hidden" name="website" value="346" />
                             <label for="" class="slider_right-form--title">Testez votre éligibilité aux aides.</label>
-                            <div class="slider_right-form--buttons">
-                                <div class="slider_right-form--btn" id="btn1">
-                                    <input type="radio" name="data" class="slider_right-form--radio" id="radio1" />
-                                    <img src="./assets/img/i1.png" alt="icone maison" class="slider_right-form--icon">
-                                    <p class="slider_right-form--p">Isolation</p>
-                                    <div class="slider_right-icon1"><i class="fas fa-check"></i></div>
+                            <div class="form-1" id="form1">
+                                <div class="slider_right-form--buttons">
+                                    <div class="slider_right-form--btn" id="btn1">
+                                        <input type="radio" name="data" class="slider_right-form--radio" id="radio1" />
+                                        <img src="./assets/img/i1.png" alt="icone maison" class="slider_right-form--icon">
+                                        <p class="slider_right-form--p">Isolation</p>
+                                        <div class="slider_right-icon1"><i class="fas fa-check"></i></div>
+                                    </div>
+                                    <div class="slider_right-form--btn" id="btn2">
+                                        <input type="radio" name="data" class="slider_right-form--radio" id="radio2" />
+                                        <img src="./assets/img/i2.png" alt="icone maison" class="slider_right-form--icon">
+                                        <p class="slider_right-form--p">Chauffage</p>
+                                        <div class="slider_right-icon2"><i class="fas fa-check"></i></div>
+                                    </div>
+                                    <div class="slider_right-form--btn" id="btn3">
+                                        <input type="radio" name="data" class="slider_right-form--radio" id="radio3" />
+                                        <img src="./assets/img/i3.png" alt="icone maison" class="slider_right-form--icon">
+                                        <p class="slider_right-form--p">Ventilation</p>
+                                        <div class="slider_right-icon3"><i class="fas fa-check"></i></div>
+                                    </div>
                                 </div>
-                                <div class="slider_right-form--btn" id="btn2">
-                                    <input type="radio" name="data" class="slider_right-form--radio" id="radio2" />
-                                    <img src="./assets/img/i2.png" alt="icone maison" class="slider_right-form--icon">
-                                    <p class="slider_right-form--p">Chauffage</p>
-                                    <div class="slider_right-icon2"><i class="fas fa-check"></i></div>
-                                </div>
-                                <div class="slider_right-form--btn" id="btn3">
-                                    <input type="radio" name="data" class="slider_right-form--radio" id="radio3" />
-                                    <img src="./assets/img/i3.png" alt="icone maison" class="slider_right-form--icon">
-                                    <p class="slider_right-form--p">Ventilation</p>
-                                    <div class="slider_right-icon3"><i class="fas fa-check"></i></div>
+                                <div class="d-flex justify-content-center mt-2 mx-auto w-100">
+                                    <button id="toshowtwo" disabled class="slider_right-form--submit rmdis">Suivant</button>
                                 </div>
                             </div>
-                            <div class="form-group mt-2 d-flex justify-content-center">
-                                <div class="g-recaptcha" data-sitekey="6LeLP2ckAAAAAJaO2787DDoLXm06-1F4n-_M66ln">
+                            <div class="row" id="form2">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="name" class="footer_form-label">Prénom et Nom <span
+                                                        class="red">*</span></label>
+                                                <input type="text" class="footer_form-input" id="name" name="name"
+                                                    placeholder="Nom*" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="email" class="footer_form-label">E-mail <span
+                                                        class="red">*</span></label>
+                                                <input type="email" class="footer_form-input" id="email" name="email"
+                                                    placeholder="Email*" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="phone" class="footer_form-label">Téléphone <span
+                                                        class="red">*</span></label>
+                                                <input type="text" class="footer_form-input" id="phone" name="phone"
+                                                    placeholder="Téléphone*" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label for="commentaire" class="footer_form-label">Demande <span
+                                                        class="red">*</span></label>
+                                                <textarea class="footer_form-input h-100" name="commentaire"
+                                                    id="commentaire" rows="5" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="g-recaptcha" data-sitekey="6LeLP2ckAAAAAJaO2787DDoLXm06-1F4n-_M66ln"></div>
+                                        <br />
+                                        <div id="devis-form-response"></div>
+                                    </div>
+                                    <div class="checkbox d-flex">
+                                        <input name="condition" type="checkbox"
+                                            />
+                                        <span class="contact_content-form--label" style="font-size: 1.1rem; white-space: nowrap;">
+                                            &nbsp; En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                                            de vos données par ce site *</span>
+                                        <i class="fa fa-info-square" aria-hidden="true"></i>
+                                    </div>
                                 </div>
-                                <br />
-                                <div id="devis-form-response"></div>
-                            </div>
-                            <div class="checkbox d-flex align-items-center mb-5">
-                                <input name="condition" type="checkbox" style="width: 1.5rem; height: 1.5rem;" />
-                                <span class="form_box-form--label" style="font-size: 1rem;">
-                                    &emsp;En utilisant ce formulaire, vous acceptez le stockage et la gestion
-                                    de vos données par ce site *</span>
-                                <i class="fa fa-info-square" aria-hidden="true"></i>
-                            </div>
-                            <div class="d-flex justify-content-center mx-auto w-100">
-                                <button type="submit" class="slider_right-form--submit form-submit"
-                                    value="Submit">Suivant</button>
+                                <div class="d-flex justify-content-center mt-2 mx-auto">
+                                    <button type="submit" class="slider_right-form--submit form-submit"
+                                        value="Submit">Envoyer</button>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -296,6 +339,18 @@
         </div>
     </div>
 </section>
+
+<script>
+    $('#toshowtwo').click(function () {
+  $('#form2').show('slow');
+  $('#form1').hide('slow');
+});
+
+
+$('#btn1, #btn2, #btn3').click( function() {
+   $('.rmdis').prop("disabled", false); 
+})
+</script>
   
 
   <div class="">
@@ -495,7 +550,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -527,7 +582,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -560,7 +615,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -594,7 +649,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -625,7 +680,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -656,7 +711,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -687,7 +742,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -713,7 +768,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/cindy.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/cindy.png" alt="Cindy" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -722,7 +777,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>

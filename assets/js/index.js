@@ -287,3 +287,10 @@ $(document).ready(function () {
     $(".slider_right-icon1").show();
   });
 });
+
+
+
+$('#toshowtwo').click(function () {
+  $('#form2').show('slow');
+  $('#form1').hide('slow');
+});

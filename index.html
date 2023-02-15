@@ -250,42 +250,85 @@
                             <input type="hidden" name="key" value="6LeLP2ckAAAAAC2PXJ2UWXaezcpKhLGPOaXGS1Al">
                             <input type="hidden" name="website" value="346" />
                             <label for="" class="slider_right-form--title">Testez votre éligibilité aux aides.</label>
-                            <div class="slider_right-form--buttons">
-                                <div class="slider_right-form--btn" id="btn1">
-                                    <input type="radio" name="data" class="slider_right-form--radio" id="radio1" />
-                                    <img src="./assets/img/i1.png" alt="icone maison" class="slider_right-form--icon">
-                                    <p class="slider_right-form--p">Isolation</p>
-                                    <div class="slider_right-icon1"><i class="fas fa-check"></i></div>
+                            <div class="form-1" id="form1">
+                                <div class="slider_right-form--buttons">
+                                    <div class="slider_right-form--btn" id="btn1">
+                                        <input type="radio" name="data" class="slider_right-form--radio" id="radio1" />
+                                        <img src="./assets/img/i1.png" alt="icone maison" class="slider_right-form--icon">
+                                        <p class="slider_right-form--p">Isolation</p>
+                                        <div class="slider_right-icon1"><i class="fas fa-check"></i></div>
+                                    </div>
+                                    <div class="slider_right-form--btn" id="btn2">
+                                        <input type="radio" name="data" class="slider_right-form--radio" id="radio2" />
+                                        <img src="./assets/img/i2.png" alt="icone maison" class="slider_right-form--icon">
+                                        <p class="slider_right-form--p">Chauffage</p>
+                                        <div class="slider_right-icon2"><i class="fas fa-check"></i></div>
+                                    </div>
+                                    <div class="slider_right-form--btn" id="btn3">
+                                        <input type="radio" name="data" class="slider_right-form--radio" id="radio3" />
+                                        <img src="./assets/img/i3.png" alt="icone maison" class="slider_right-form--icon">
+                                        <p class="slider_right-form--p">Ventilation</p>
+                                        <div class="slider_right-icon3"><i class="fas fa-check"></i></div>
+                                    </div>
                                 </div>
-                                <div class="slider_right-form--btn" id="btn2">
-                                    <input type="radio" name="data" class="slider_right-form--radio" id="radio2" />
-                                    <img src="./assets/img/i2.png" alt="icone maison" class="slider_right-form--icon">
-                                    <p class="slider_right-form--p">Chauffage</p>
-                                    <div class="slider_right-icon2"><i class="fas fa-check"></i></div>
-                                </div>
-                                <div class="slider_right-form--btn" id="btn3">
-                                    <input type="radio" name="data" class="slider_right-form--radio" id="radio3" />
-                                    <img src="./assets/img/i3.png" alt="icone maison" class="slider_right-form--icon">
-                                    <p class="slider_right-form--p">Ventilation</p>
-                                    <div class="slider_right-icon3"><i class="fas fa-check"></i></div>
+                                <div class="d-flex justify-content-center mt-2 mx-auto w-100">
+                                    <button id="toshowtwo" disabled class="slider_right-form--submit rmdis">Suivant</button>
                                 </div>
                             </div>
-                            <div class="form-group mt-2 d-flex justify-content-center">
-                                <div class="g-recaptcha" data-sitekey="6LeLP2ckAAAAAJaO2787DDoLXm06-1F4n-_M66ln">
+                            <div class="row" id="form2">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="name" class="footer_form-label">Prénom et Nom <span
+                                                        class="red">*</span></label>
+                                                <input type="text" class="footer_form-input" id="name" name="name"
+                                                    placeholder="Nom*" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="email" class="footer_form-label">E-mail <span
+                                                        class="red">*</span></label>
+                                                <input type="email" class="footer_form-input" id="email" name="email"
+                                                    placeholder="Email*" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="phone" class="footer_form-label">Téléphone <span
+                                                        class="red">*</span></label>
+                                                <input type="text" class="footer_form-input" id="phone" name="phone"
+                                                    placeholder="Téléphone*" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label for="commentaire" class="footer_form-label">Demande <span
+                                                        class="red">*</span></label>
+                                                <textarea class="footer_form-input h-100" name="commentaire"
+                                                    id="commentaire" rows="5" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="g-recaptcha" data-sitekey="6LeLP2ckAAAAAJaO2787DDoLXm06-1F4n-_M66ln"></div>
+                                        <br />
+                                        <div id="devis-form-response"></div>
+                                    </div>
+                                    <div class="checkbox d-flex">
+                                        <input name="condition" type="checkbox"
+                                            />
+                                        <span class="contact_content-form--label" style="font-size: 1.1rem; white-space: nowrap;">
+                                            &nbsp; En utilisant ce formulaire, vous acceptez le stockage et la gestion
+                                            de vos données par ce site *</span>
+                                        <i class="fa fa-info-square" aria-hidden="true"></i>
+                                    </div>
                                 </div>
-                                <br />
-                                <div id="devis-form-response"></div>
-                            </div>
-                            <div class="checkbox d-flex align-items-center mb-5">
-                                <input name="condition" type="checkbox" style="width: 1.5rem; height: 1.5rem;" />
-                                <span class="form_box-form--label" style="font-size: 1rem;">
-                                    &emsp;En utilisant ce formulaire, vous acceptez le stockage et la gestion
-                                    de vos données par ce site *</span>
-                                <i class="fa fa-info-square" aria-hidden="true"></i>
-                            </div>
-                            <div class="d-flex justify-content-center mx-auto w-100">
-                                <button type="submit" class="slider_right-form--submit form-submit"
-                                    value="Submit">Suivant</button>
+                                <div class="d-flex justify-content-center mt-2 mx-auto">
+                                    <button type="submit" class="slider_right-form--submit form-submit"
+                                        value="Submit">Envoyer</button>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -294,6 +337,18 @@
         </div>
     </div>
 </section>
+
+<script>
+    $('#toshowtwo').click(function () {
+  $('#form2').show('slow');
+  $('#form1').hide('slow');
+});
+
+
+$('#btn1, #btn2, #btn3').click( function() {
+   $('.rmdis').prop("disabled", false); 
+})
+</script>
   
 
   
@@ -308,7 +363,7 @@
                 mettre son expérience et son savoir-faire au service de ses clients. En tant que professionnels en
                 matière de pompe à chaleur, nous vous assurons une équipe ayant toutes les compétences techniques
                 nécessaires pour effectuer vos travaux d’installation, de maintenance ou de dépannage. Spécialisés dans
-                la pompe à chaleur, nos installateurs certifiés RGE possèdent de grandes compétences en matière de la
+                la pompe à chaleur, nos installateurs certifiés RGE possèdent de grandes compétences en matière de
                 rénovation énergétique. <strong>Nous nous engageons à fournir un travail de qualité et de respecter
                     également les délais ainsi que le cahier de charge établi par notre entreprise de pompe à chaleur
                     dans le 49.</strong></p>
@@ -352,8 +407,8 @@
                     <img src="./assets/img/c4.jpg" alt="pompe à chaleur" class="services_card-image--img">
                 </div>
                 <h3 class="services_card-title pb-2">MON CONTRAT D’entretien</h3>
-                <p class="services_card-p">La vérification d’une pompe à chaleur par un professionnel est
-                    obligatoiretous les deux ans.</p>
+                <p class="services_card-p">La vérification d’une pompe à chaleur par un professionnel est obligatoire
+                    tous les deux ans.</p>
             </div>
             <div class="services_card">
                 <div class="services_card-image">
@@ -375,9 +430,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="services_content-p">Avec la transition énergétique en cours et les incitations à la
-                        rénovation des vieilles chaudières, les pompes à chaleur sont une solution idéale. Ils sont
-                        économiques, car ils ne consomment que peu ou pas d’électricité et sont respectueux de
-                        l’environnement, parce qu’ils utilisent la chaleur de l’air et du sol. Les pompes à chaleur vous
+                        rénovation des vieilles chaudières, les pompes à chaleur sont une solution idéale. Elles sont
+                        économiques, car elles ne consomment que peu ou pas d’électricité et sont respectueuses de
+                        l’environnement, parce qu’elles utilisent la chaleur de l’air et du sol. Les pompes à chaleur
+                        vous offrent une énergie gratuite et renouvelable. Les pompes à chaleur vous
                         offrent une énergie gratuite et renouvelable.
                         <br><br>
                         • Vous économisez entre 800 et 2 000 euros sur vos factures.<br>
@@ -453,10 +509,9 @@
                 </div>
             </div>
         </div>
-        <p class="services_menu-p mt-5"><strong>Nos spécialistes certifiées chez pompe à chaleur 49 assurent des
-                prestations
-                de qualité en matière d’installation, la maintenance et l’entretien de pompes à chaleur.</strong> Entrez
-            en contact direct avec des professionnels en pompe à chaleur afin d’obtenir un devis personnalisé.</p>
+        <p class="services_menu-p mt-5">Nos spécialistes certifiées chez Pact'iso assurent des prestations de qualité en
+            matière d’installation, de maintenance et d’entretien de PAC. <strong>Entrez en contact direct avec des
+                professionnels en pompe à chaleur dans le 49 afin d’obtenir un devis personnalisé.</strong></p>
     </div>
 </section>
 
@@ -492,23 +547,23 @@
                         système de chauffage à air est pratiquement neutre en termes d’émissions de gaz à effet de serre
                         et d’économie de combustibles fossiles. Pour cette raison, il est également éligible aux aides
                         financières prévues dans le cadre de la transition énergétique. Pour en savoir plus, veuillez
-                        contacter notre société pompe à chaleur 49 sur le numéro indiquer sur le site du lundi au
-                        vendredi de 9 h à 17 h ou tout simplement en remplissant la fiche de contact disponible sur le
-                        site.</p>
+                        contacter notre société sur le numéro indiquer sur le site du lundi au vendredi de 9 h à 17 h ou
+                        tout simplement en remplissant la fiche de contact disponible sur le site.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="services_content-image">
-                        <img src="./assets/img/e2.png" alt="homme en rouge qui travail" class="services_content-image--img">
+                        <img src="./assets/img/e2.png" alt="homme en rouge qui travail"
+                            class="services_content-image--img">
                     </div>
                     <h3 class="services_menu-title">AMÉLIORER VOTRE CONFORT THERMIQUE</h3>
                     <p class="services_content-p">Vous souhaitez améliorer votre quotidien grâce à une performance
                         énergétique fiable et économique ? Aujourd’hui, il existe de nombreuses solutions efficaces et
                         rentables sur le marché pour ceux qui souhaitent bénéficier d’une température et d’un confort
-                        environnemental optimaux à des couts énergétiques minimaux dans leur maison. D’autre part,
+                        environnemental optimal à des couts énergétiques minimaux dans leur maison. D’autre part,
                         l’augmentation des prix de l’énergie associée à des températures plus basses et à une vapeur
-                        d’eau plus élevées n’est pas bonne pour votre portefeuille, car votre facture d’électricité
-                        mensuelle sera plus élevée. <strong>Pour l’installation d’une pompe à chaleur, faites appel à un
-                            installateur de pompe à chaleur 49 professionnel comme Pact'iso.</strong></p>
+                        d’eau plus élevée n’est pas bonne pour votre portefeuille, car votre facture d’électricité
+                        mensuelle sera plus élevée. Pour l’installation d’une pompe à chaleur, faites appel à un
+                        professionnel comme Pact'iso.</p>
                     <div class="services_content-image">
                         <img src="./assets/img/e3.png" alt="système de chauffage" class="services_content-image--img">
                     </div>
@@ -608,7 +663,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -640,7 +695,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -673,7 +728,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -707,7 +762,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -738,7 +793,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -769,7 +824,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -800,7 +855,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
@@ -826,7 +881,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/cindy.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/cindy.png" alt="Cindy" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -835,7 +890,7 @@
                                     </div>
                                 </div>
                                 <div class="footer_card-details--google">
-                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""
+                                    <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="logo google"
                                         class="footer_card-details--icon">
                                 </div>
                             </div>
