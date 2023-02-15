@@ -23,11 +23,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous"></script>
-    <title></title>
-<meta property="og:title" content="" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JSJT2DY3PY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JSJT2DY3PY');
+    </script>
+    <title>Parrainez un proche et obtenez jusqu’à 1000 € avec PACT’ISO !</title>
+<meta property="og:title" content="Parrainez un proche et obtenez jusqu’à 1000 € avec PACT’ISO !" />
 <meta property="og:locale" content="fr_FR" />
-<meta name="description" content="" />
-<meta property="og:description" content="" />
+<meta name="description" content="Avec Pact'iso, parrainez un proche et gagnez jusqu’à 1000 € en chèques-cadeaux. Remplissez le formulaire et recevez votre bonus de 50 € par filleul." />
+<meta property="og:description" content="Avec Pact'iso, parrainez un proche et gagnez jusqu’à 1000 € en chèques-cadeaux. Remplissez le formulaire et recevez votre bonus de 50 € par filleul." />
 <meta name="keywords" content="" />
 <link rel="canonical" href="http://localhost:4000/parrainage" />
 <meta property="og:url" content="http://localhost:4000/parrainage" />
@@ -37,22 +45,26 @@
 "@context":"https://schema.org",
 "@type":"WebSite",
 "url":"http://localhost:4000/parrainage",
-"description":"",
-"name":""
+"description":"Avec Pact'iso, parrainez un proche et gagnez jusqu’à 1000 € en chèques-cadeaux. Remplissez le formulaire et recevez votre bonus de 50 € par filleul.",
+"name":"Parrainez un proche et obtenez jusqu’à 1000 € avec PACT’ISO !"
 }
 </script>
 
 </head>
 <body>
-  <section class="Navbar navbar-main Navbar">
-    <nav class="navbar navbar-expand-lg Navbar p-0">
+  <section class="Navbar navbar-main  fixedNav">
+    <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
                 <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                        alt="logo pactiso" /></a>
             </div>
-            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mr-5 to-hide-990" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars fa-2x toggle-button" aria-hidden="true"></i>
+            </button>
+            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav2"
+                aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars fa-2x toggle-button" aria-hidden="true"></i>
             </button>
             <div class="collapse navbar-collapse Navbar_nav-collapse" id="navbarNav">
@@ -60,47 +72,56 @@
                     <li class="nav-item Navbar_nav-item">
                         <a class="nav-link Navbar_nav-link" href="./index.html">ACCUEIL</a>
                     </li>
-                    <li class="nav-item dropdown Navbar_nav-item">
+                    <li class="nav-item dropdown Navbar_nav-item" id="hello">
                         <a class="nav-link Navbar_nav-link dropdown-toggle  d-flex align-items-center" href="#"
                             id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false"> NOS OFFRES
                         </a>
                         <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item dropdown-toggle Navbar_nav-link py-3 dropdown-item dropdown-toggle"
+                            <a class="dropdown-item dropdown-toggle Navbar_nav-link2 py-3 dropdown-item dropdown-toggle"
                                 href="#">CHAUFFAGE</a>
                             <ul class="dropdown-menu menu-to-right">
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./installation-de-pompe-a-chaleur-air-eau.html">Pompes à chaleur
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./installation-de-pompe-a-chaleur-air-eau.html">Pompes à chaleur
                                         Air-Eau</a></li>
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./installation-de-pompe-a-chaleur-air-air.html">Pompe à chaleur
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./installation-de-pompe-a-chaleur-air-air.html">Pompe à chaleur
                                         Air-Air</a></li>
                             </ul>
-                            <a class="dropdown-item Navbar_nav-link dropdown-item dropdown-toggle py-3"
+                            <a class="dropdown-item Navbar_nav-link2 dropdown-item dropdown-toggle py-3"
                                 href="#">ISOLATION</a>
                             <ul class="dropdown-menu menu-to-right">
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-des-combles-perdus.html">Isolation des combles
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./isolation-des-combles-perdus.html">Isolation des combles
                                         perdus</a></li>
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-des-combles-amenageables.html">isolation des combles
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./isolation-des-combles-amenageables.html">isolation des combles
                                         aménageables</a></li>
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-des-facades.html">Isolation des
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./isolation-des-facades.html">Isolation des
                                         façades</a></li>
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./isolation-du-sous-sol.html">Isolation du
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./isolation-du-sous-sol.html">Isolation du
                                         sous-sol</a></li>
                             </ul>
-                            <a class="dropdown-item Navbar_nav-link dropdown-item dropdown-toggle py-3"
+                            <a class="dropdown-item Navbar_nav-link2 dropdown-item dropdown-toggle py-3"
                                 href="#">VENTILATION</a>
                             <ul class="dropdown-menu menu-to-right">
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./vmc-double-flux.html">VMC Double Flux</a></li>
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./vmc-double-flux.html">VMC Double Flux</a></li>
                                 <li class="nav-item Navbar_nav-item py-2"><a
-                                        class="dropdown-item nav-link Navbar_nav-link" href="./vmc-simple-flux.html">VMC Simple flux</a></li>
+                                        class="dropdown-item nav-link Navbar_nav-link2"
+                                        href="./vmc-simple-flux.html">VMC Simple flux</a></li>
                             </ul>
-                            <a class="dropdown-item Navbar_nav-link py-3" href="./mon-contrat-dentretien.html">MON CONTRAT D’ENTRETIEN</a>
+                            <a class="dropdown-item Navbar_nav-link2 py-3"
+                                href="./mon-contrat-dentretien.html">MON CONTRAT D’ENTRETIEN</a>
                         </div>
                     </li>
                     <li class="nav-item Navbar_nav-item">
@@ -110,8 +131,84 @@
                         <a class="nav-link Navbar_nav-link" href="./galerie.html">Nos réalisations</a>
                     </li>
                     <li class="nav-item Navbar_nav-item">
-                        <a class="nav-link Navbar_nav-link" href="./aides-et-financements.html">Aides et financements</a>
+                        <a class="nav-link Navbar_nav-link" href="./aides-et-financements.html">Aides et
+                            financements</a>
                     </li>
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./parrainage.html">PARRAINAGE</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse Navbar_nav-collapse" id="navbarNav2">
+                <ul class="navbar-nav Navbar_nav ml-auto v-hidden-990">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link pt-5 mt-3" href="./index.html">ACCUEIL</a>
+                    </li>
+                    <hr class="Navbar_nav-line">
+                    <li class="nav-item dropdown Navbar_nav-item" id="hello">
+                        <a class="nav-link Navbar_nav-link  d-flex align-items-center" href="#"> NOS OFFRES</a>
+                    </li>
+                    <hr class="Navbar_nav-line">
+                    <li>
+                        <a class="Navbar_nav-link py-3" href="#">CHAUFFAGE</a>
+                        <hr class="Navbar_nav-line">
+                        <ul class="ml-5 mt-2">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./installation-de-pompe-a-chaleur-air-eau.html">Pompes à chaleur
+                                    Air-Eau</a></li>
+                            <hr class="Navbar_nav-line">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./installation-de-pompe-a-chaleur-air-air.html">Pompe à chaleur
+                                    Air-Air</a></li>
+                            <hr class="Navbar_nav-line">
+                        </ul>
+                        <a class="Navbar_nav-link py-3" href="#">ISOLATION</a>
+                        <hr class="Navbar_nav-line">
+                        <ul class="ml-5 mt-2">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./isolation-des-combles-perdus.html">Isolation des combles
+                                    perdus</a></li>
+                            <hr class="Navbar_nav-line">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./isolation-des-combles-amenageables.html">isolation des combles
+                                    aménageables</a></li>
+                            <hr class="Navbar_nav-line">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./isolation-des-facades.html">Isolation des
+                                    façades</a></li>
+                            <hr class="Navbar_nav-line">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./isolation-du-sous-sol.html">Isolation du
+                                    sous-sol</a></li>
+                            <hr class="Navbar_nav-line">
+                        </ul>
+                        <a class="Navbar_nav-link py-3" href="#">VENTILATION</a>
+                        <hr class="Navbar_nav-line">
+                        <ul class="ml-5 mt-2">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./vmc-double-flux.html">VMC Double Flux</a></li>
+                            <hr class="Navbar_nav-line">
+                            <li class="nav-item Navbar_nav-item py-2"><a class="nav-link Navbar_nav-link"
+                                    href="./vmc-simple-flux.html">VMC Simple flux</a></li>
+                            <hr class="Navbar_nav-line">
+                        </ul>
+                        <a class="Navbar_nav-link py-3" href="./mon-contrat-dentretien.html">MON CONTRAT
+                            D’ENTRETIEN</a>
+                    </li>
+                    <hr class="Navbar_nav-line">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./qui-sommes-nous.html">Qui sommes-nous ?</a>
+                    </li>
+                    <hr class="Navbar_nav-line">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./galerie.html">Nos réalisations</a>
+                    </li>
+                    <hr class="Navbar_nav-line">
+                    <li class="nav-item Navbar_nav-item">
+                        <a class="nav-link Navbar_nav-link" href="./aides-et-financements.html">Aides et
+                            financements</a>
+                    </li>
+                    <hr class="Navbar_nav-line">
                     <li class="nav-item Navbar_nav-item">
                         <a class="nav-link Navbar_nav-link" href="./parrainage.html">PARRAINAGE</a>
                     </li>
@@ -128,7 +225,7 @@
   <div class="">
     <section class="banner-10">
     <div class="container">
-        <div class="banner_content align-items-start" style="width: 47.25%;">
+        <div class="banner_content align-items-start w-47-25">
             <h1 class="banner_content-title color-green text-left pb-0">PARRAINAGE</h1>
             <h2 class="banner_content-head text-left pb-0">PACT’ISO</h2>
             <p class="pompe_content-p2 color-black text-justify pt-3">Avec Pact’iso, parrainez un proche et obtenez 50
@@ -150,7 +247,7 @@
                                     <span class="color-grey">EN CHÈQUES CADEAUX</span>
                                 </strong>
                             </h2>
-                            <hr class="prime_box-content--line">
+                            <hr class="prime_box-content--line color-primary-line">
                             <h3 class="prime_box-content--title">Comment parrainer un proche ?</h3>
                             <p class="pompe_content-p3 text-justify pt-3">
                                 Pour obtenir la prime de 100 € par filleul (limité à 10 par an), il vous suffit de
@@ -159,7 +256,7 @@
                                 de vos filleuls terminés et facturés, vous recevrez une notification par mail vous
                                 proposant de recevoir vos chèques cadeaux par courrier ou par mail.
                             </p>
-                            <hr class="prime_box-content--line">
+                            <hr class="prime_box-content--line color-primary-line">
                             <h3 class="prime_box-content--title">Règlement de l’offre parrainage</h3>
                             <ol class="pl-3">
                                 <li class="pompe_content-p4 text-justify pt-3">Offre de parrainage réservée aux clients
@@ -211,7 +308,7 @@
                                     <input type="hidden" name="redirectUrl"
                                         value="/" />
                                     <input type="hidden" name="type" value="contact" />
-                                    <input type="hidden" name="website" value="" />
+                                    <input type="hidden" name="website" value="346" />
                                     <input type="hidden" name="lang" value="fr" />
                                     <input type="hidden" name="firstName" value="" />
                                     <input type="hidden" name="key" value="6LeLP2ckAAAAAC2PXJ2UWXaezcpKhLGPOaXGS1Al">
@@ -302,7 +399,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="footer_logo">
-                    <img src="./assets/img/logo-big.png" alt="" class="footer_logo-img">
+                    <img src="./assets/img/logo-big.png" alt="logo pactiso" class="footer_logo-img">
                 </div>
                 <ul class="footer_content-ul">
                     <li class="footer_content-li">
@@ -328,7 +425,7 @@
             <div class="col-md-4">
                 <div class="footer_content">
                     <h3 class="footer_content-title">VOTRE AVIS NOUS INTÉRESSE</h3>
-                    <img src="https://cdn.trustindex.io/assets/platform/Google/logo.svg" alt=""
+                    <img src="https://cdn.trustindex.io/assets/platform/Google/logo.svg" alt="logo google"
                         class="footer_content-google">
                     <div class="footer_content-reviews">
                         <i class="fas fa-star footer_content-reviews--icon"></i>
@@ -345,7 +442,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/l.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/l.png" alt="icone L" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -377,7 +474,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/m.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/m.png" alt="icone m" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -410,7 +507,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/lapo.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/lapo.png" alt="dame avec son chien" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -444,7 +541,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/m2.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/m2.png" alt="icone M" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -475,7 +572,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/vero.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/vero.png" alt="fleurs" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -506,7 +603,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/j.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/j.png" alt="icone J" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -537,7 +634,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="./assets/img/justine.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/justine.png" alt="petite fille" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -572,7 +669,7 @@
                             <div class="footer_card-details">
                                 <div class="footer_card-details--left">
                                     <div>
-                                        <img src="../assets/img/cindy.png" alt="" class="footer_card-details--avatar">
+                                        <img src="./assets/img/cindy.png" alt="" class="footer_card-details--avatar">
                                     </div>
                                     <div>
                                         <h4 class="footer_card-details--name">
@@ -609,7 +706,7 @@
                         <input type="hidden" name="lang" value="fr">
                         <input type="hidden" name="redirectUrl" value="/" />
                         <input type="hidden" name="type" value="contact" />
-                        <input type="hidden" name="website" value="" />
+                        <input type="hidden" name="website" value="346" />
                         <input type="hidden" name="lang" value="fr" />
                         <input type="hidden" name="firstName" value="" />
                         <input type="hidden" name="key" value="6LeLP2ckAAAAAC2PXJ2UWXaezcpKhLGPOaXGS1Al">
@@ -659,7 +756,7 @@
                                 <div id="contact-form-response"></div>
                                 <div class="checkbox d-flex justify-content-center mb-5">
                                     <input name="condition" type="checkbox" />
-                                    <span class="footer_form--label" style="font-size: 1.2rem; white-space: nowrap;">
+                                    <span class="footer_form--label" style="font-size: 1.2rem;">
                                         &nbsp; En utilisant ce formulaire, vous acceptez le stockage et la gestion
                                         de vos données par ce site *</span>
                                     <i class="fa fa-info-square" aria-hidden="true"></i>
