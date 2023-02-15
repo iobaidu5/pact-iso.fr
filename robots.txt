@@ -1,1 +1,5 @@
+---
+layout: none
+---
 Sitemap: https://iobaidu5.github.io/pact-iso.fr/sitemap.xml
+User-agent: *
